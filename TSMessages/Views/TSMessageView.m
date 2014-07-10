@@ -98,7 +98,6 @@ static NSMutableDictionary *_notificationDesign;
 canBeDismissedByUser:(BOOL)dismissingEnabled
 {
     NSDictionary *notificationDesign = [TSMessageView notificationDesign];
-    duration = 10000;
     
     if ((self = [self init]))
     {
